@@ -1,8 +1,8 @@
-<h1>#SQL-BASIC-COMMANDS</h1>
+<h5>#SQL-BASIC-COMMANDS</h5>
 
 <HR>
 
-<H2 align=center> BASIC COMMANDS FOR BEGINNERS </H2>
+<H1 align=center> BASIC COMMANDS FOR BEGINNERS </H1>
 
 <HR>
 
@@ -23,6 +23,17 @@ $ USE *name;
 
 ##To Create Table..
 ```
-$ CREATE TABLE *name
+$ CREATE TABLE *name (
+    *name VARCHAR(SIZE),
+    *name VARCHAR(SIZE),
+    *name INT 
+       );
+
 ```
 
+##To Insert Data..
+```
+INSERT INTO *name ( *name, *name, [*name] )
+   VALUES ( 'data','data',123 );
+
+``` 
